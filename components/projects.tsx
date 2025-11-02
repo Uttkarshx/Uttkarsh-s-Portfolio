@@ -27,7 +27,7 @@ const projectsData = [
   description:
     "A deep learning project that classifies chest X-ray images as normal or pneumonia-affected using CNN with real-time predictions and accuracy metrics.",
   image: "/chest-xray-ai-medical-imaging-deep-learning.jpg",
-  live: "https://pneumonia-detection-brown.vercel.app",
+  live: "https://pneumonia-detection-brown.vercel.app/",
   github: "https://github.com/Uttkarshx/Pneumonia-Detection-",
 },
 
