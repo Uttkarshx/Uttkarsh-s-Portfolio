@@ -20,9 +20,9 @@ const projectsData = [
     id: 2,
     title: "Chess Clock ",
     description: "An online chess clock using React js .",
-    image: "/chess-clock.jpg",
-    live: "#",
-    github: "#",
+    image: "/chess-clock.png",
+    live: "https://chess-clock-oeq8-1sb8uynug-offcuttkarsh-2894s-projects.vercel.app/",
+    github: "https://github.com/Uttkarshx/Chess-Clock",
   },
   {
   id: 3,
