@@ -18,9 +18,9 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Chess Arena Web App",
-    description: "An online multiplayer chess platform for college players to compete and track stats.",
-    image: "/chess-game-interface.jpg",
+    title: "Chess Clock ",
+    description: "An online chess clock using React js .",
+    image: "/chess-clock.jpg",
     live: "#",
     github: "#",
   },
