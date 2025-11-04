@@ -10,7 +10,10 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Uttkarsh's Portfolio",
   description: "A passionate web developer crafting interactive & clean digital experiences.",
-  // ❌ removed generator: "v0.app",
+  
+  icons:{
+    icon:"/futuristic-illustration-web-developer.jpg"
+  }
 }
 
 export default function RootLayout({
