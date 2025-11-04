@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { Github, Linkedin, Mail } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -18,25 +19,25 @@ export default function Footer() {
           </p>
           <div className="mt-4 flex justify-center gap-6">
             <motion.a
-              href="#"
+              href="https://github.com/Uttkarshx"
               whileHover={{ scale: 1.2 }}
-              className="text-foreground/60 hover:text-cyan-400 transition-colors"
+              className="text-foreground/60 hover:text-cyan-400 transition-colors flex items-center gap-2"
             >
-              GitHub
+              <Github className="w-4 h-4" /> GitHub
             </motion.a>
             <motion.a
-              href="#"
+              href="https://www.linkedin.com/in/uttkarsh-srivastava-217699325/"
               whileHover={{ scale: 1.2 }}
-              className="text-foreground/60 hover:text-cyan-400 transition-colors"
+              className="text-foreground/60 hover:text-cyan-400 transition-colors flex items-center gap-2"
             >
-              LinkedIn
+              <Linkedin className="w-4 h-4" /> LinkedIn
             </motion.a>
             <motion.a
-              href="#"
+              href="mailto:offcuttkarsh@gmail.com"
               whileHover={{ scale: 1.2 }}
-              className="text-foreground/60 hover:text-cyan-400 transition-colors"
+              className="text-foreground/60 hover:text-cyan-400 transition-colors flex items-center gap-2"
             >
-              Email
+              <Mail className="w-4 h-4" /> Email
             </motion.a>
           </div>
         </div>

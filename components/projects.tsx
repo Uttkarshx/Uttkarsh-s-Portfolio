@@ -6,12 +6,15 @@ import { useState } from "react"
 const projectsData = [
  
   {
+    
     id: 1,
-    title: "Beyond Classes NGO Website",
-    description: "An accessibility-focused NGO website built with empathy and modern design.",
-    image: "/ngo-website-design.jpg",
-    live: "#",
-    github: "#",
+    title: "Nike Clone Website",
+    description: "A basic modern Nike store clone built with HTML, CSS, and JavaScript, replicating Nike's sleek design and animations.",
+    image: "/nike-clone-preview.png",
+    live: "https://clone-of-n-ike.vercel.app/",
+    github: "https://github.com/Uttkarshx/Clone-of-NIke"
+
+
   },
   {
     id: 2,

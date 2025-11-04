@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { motion } from "framer-motion"
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
 import { useState } from "react"
@@ -11,14 +10,13 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
     console.log(formData)
   }
 
   const socialLinks = [
-    { icon: FaGithub, href: "#", label: "GitHub" },
-    { icon: FaLinkedin, href: "#", label: "LinkedIn" },
-    { icon: FaEnvelope, href: "mailto:contact@example.com", label: "Email" },
+    { icon: FaGithub, href: "https://github.com/Uttkarshx", label: "GitHub" },
+    { icon: FaLinkedin, href: "https://www.linkedin.com/in/uttkarsh-srivastava-217699325/", label: "LinkedIn" },
+    { icon: FaEnvelope, href: "mailto:offcuttkarsh@gmail.com", label: "Email" },
   ]
 
   return (
@@ -102,6 +100,8 @@ export default function Contact() {
                 <motion.a
                   key={index}
                   href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.2, rotate: 10 }}
                   className="w-14 h-14 rounded-full border border-cyan-400/50 flex items-center justify-center text-cyan-400 hover:border-cyan-400 hover:bg-cyan-400/10 transition-all"
                 >
