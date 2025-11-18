@@ -33,7 +33,15 @@ const projectsData = [
   live: "https://pneumonia-detection-brown.vercel.app/",
   github: "https://github.com/Uttkarshx/Pneumonia-Detection-",
 },
-
+  {
+  id: 4,
+  title: "Swatsh Vision - Prototype ",
+  description:
+    "AI Based Risk Predictio of Water Borne Disease ,Like - Diarohea , Cholera , Typhoid ,etc",
+  image: "Swasth Vision.png",
+  live: "https://swasth-vision.vercel.app/",
+  github: "https://github.com/Uttkarshx/Swasth-vision-",
+},
 ]
 
 export default function Projects() {
